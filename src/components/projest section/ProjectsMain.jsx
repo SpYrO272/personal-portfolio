@@ -8,56 +8,56 @@ const projects =[
         name:"Job Finder",
         year:"Jan 2025",
         align:"right",
-        image:"../../public/images/jobfinder.png",
+        image:"../../src/assets/jobfinder.png",
         link:"https://jobfinder-53jf.vercel.app/"
     },
     {
         name:"Gemini Clone",
         year:"Nov 2024",
         align:"left",
-        image:"../../public/images/geminiclone.png",
+        image:"../../src/assets/geminiclone.png",
         link:'https://gemini-iota.vercel.app/'
     },
     {
         name:"Media Player",
         year:"Nov 2024",
         align:"right",
-        image:"../../public/images/mediaplayer.png",
+        image:"../../src/assets/mediaplayer.png",
         link:'https://mediaplayer-frontend-ashen.vercel.app/'
     },
     {
         name:"Spotify",
         year:"Nov 2024",
         align:"left",
-        image:"../../public/images/spotifyclone.png",
+        image:"../../src/assets/spotifyclone.png",
         link:'https://spotify-zeta-dusky.vercel.app/'
     },
     {
         name:"AudioBird",
         year:"Oct 2024",
         align:"right",
-        image:"../../public/images/audiobird.png",
+        image:"../../src/assets/audiobird.png",
         link:'https://audiobird-frontend.vercel.app/'
     },
     {
         name:"SoilBoy",
         year:"Oct 2024",
         align:"left",
-        image:"../../public/images/soilboy.png",
+        image:"../../src/assets/soilboy.png",
         link:'https://spyro272.github.io/SoilBoy/'
     },
     {
         name:"Ecart",
         year:"Sept 2024",
         align:"right",
-        image:"../../public/images/ecart.png",
+        image:"../../src/assets/ecart.png",
         link:'https://ecart-sandy-chi.vercel.app/'
     },
     {
         name:"3D Portfolio",
         year:"Aug 2024",
         align:"left",
-        image:"../../public/images/3d.png",
+        image:"../../src/assets/3d.png",
         link:'https://spyro272.github.io/amaljportfolio/'
     },
 
@@ -65,21 +65,21 @@ const projects =[
         name:"Furnicom",
         year:"July 2024",
         align:"right",
-        image:"../../public/images/furni.png",
+        image:"../../src/assets/furni.png",
         link:'https://spyro272.github.io/Furniture-website/'
     },
     {
         name:"Travellia",
         year:"July 2024",
         align:"left",
-        image:"../../public/images/travel.png",
+        image:"../../src/assets/travel.png",
         link:'https://spyro272.github.io/Porject-Travel/'
     },
      {
         name:"Employee Management",
         year:"July 2024",
         align:"right",
-        image:"../../public/images/emp.png",
+        image:"../../src/assets/emp.png",
         link:'https://emp-lyart.vercel.app/'
     }
     
