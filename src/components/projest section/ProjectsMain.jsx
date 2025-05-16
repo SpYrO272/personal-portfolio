@@ -3,61 +3,72 @@ import ProjectsText from './ProjectsText'
 import SingleProjects from './SingleProjects'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
+import job from '../../assets/jobfinder.png';
+import jemini from '../../assets/geminiclone.png';
+import soil from '../../assets/soilboy.png';
+import media from '../../assets/mediaplayer.png';
+import spotify from '../../assets/spotifyclone.png';
+import audio from '../../assets/audiobird.png';
+import ecart from '../../assets/ecart.png';
+import port from '../../assets/3d.png';
+import furni from '../../assets/furni.png';
+import travel from '../../assets/travel.png';
+import emp from '../../assets/emp.png';
 const projects =[
     {
         name:"Job Finder",
         year:"Jan 2025",
         align:"right",
-        image:"../../src/assets/jobfinder.png",
+        image: job,
         link:"https://jobfinder-53jf.vercel.app/"
     },
     {
         name:"Gemini Clone",
         year:"Nov 2024",
         align:"left",
-        image:"../../src/assets/geminiclone.png",
+        image:jemini,
         link:'https://gemini-iota.vercel.app/'
     },
     {
         name:"Media Player",
         year:"Nov 2024",
         align:"right",
-        image:"../../src/assets/mediaplayer.png",
+        image:media,
         link:'https://mediaplayer-frontend-ashen.vercel.app/'
     },
     {
         name:"Spotify",
         year:"Nov 2024",
         align:"left",
-        image:"../../src/assets/spotifyclone.png",
+        image:spotify,
         link:'https://spotify-zeta-dusky.vercel.app/'
     },
     {
         name:"AudioBird",
         year:"Oct 2024",
         align:"right",
-        image:"../../src/assets/audiobird.png",
+        image:audio,
         link:'https://audiobird-frontend.vercel.app/'
     },
     {
         name:"SoilBoy",
         year:"Oct 2024",
         align:"left",
-        image:"../../src/assets/soilboy.png",
+        image:soil,
         link:'https://spyro272.github.io/SoilBoy/'
     },
     {
         name:"Ecart",
         year:"Sept 2024",
         align:"right",
-        image:"../../src/assets/ecart.png",
+        image:ecart,
         link:'https://ecart-sandy-chi.vercel.app/'
     },
     {
         name:"3D Portfolio",
         year:"Aug 2024",
         align:"left",
-        image:"../../src/assets/3d.png",
+        image:port,
         link:'https://spyro272.github.io/amaljportfolio/'
     },
 
@@ -65,21 +76,21 @@ const projects =[
         name:"Furnicom",
         year:"July 2024",
         align:"right",
-        image:"../../src/assets/furni.png",
+        image:furni,
         link:'https://spyro272.github.io/Furniture-website/'
     },
     {
         name:"Travellia",
         year:"July 2024",
         align:"left",
-        image:"../../src/assets/travel.png",
+        image:travel,
         link:'https://spyro272.github.io/Porject-Travel/'
     },
      {
         name:"Employee Management",
         year:"July 2024",
         align:"right",
-        image:"../../src/assets/emp.png",
+        image:emp,
         link:'https://emp-lyart.vercel.app/'
     }
     

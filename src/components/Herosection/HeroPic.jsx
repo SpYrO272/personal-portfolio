@@ -2,6 +2,7 @@ import React from 'react'
 import { PiHexagon } from "react-icons/pi";
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
+import pic from '../../assets/pic.png';
 const HeroPic = () => {
   return (
     <motion.div 
@@ -10,7 +11,7 @@ const HeroPic = () => {
             whileInView="show"
             viewport={{once: false, amount : 0}}
     className='h-full flex items-center justify-center'>
-        <img className='max-h-[550px] w-auto' src="../../src/assets/pic.png" alt="" />
+        <img className='max-h-[550px] w-auto' src={pic} alt="" />
         <div className='absolute -z-10 flex justify-center items-center animate-pulse'>
         <PiHexagon className='md:h-[90%] sm:h-[120%] min-h-[440px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite]'/>
         </div>
